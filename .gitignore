@@ -1,0 +1,43 @@
+# Ignore vendor/ directory (for Composer)
+vendor/
+
+# Ignore environment files
+.env
+.env.local
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore node_modules if you're using npm or yarn for frontend assets
+node_modules/
+
+# Ignore compiled CSS and JS files if generated
+/public/css/
+public/js/
+
+# Ignore cache and session files
+cache/
+sessions/
+
+# Ignore PHPUnit test results
+phpunit.xml
+phpunit.xml.dist
+/tests/_output/
+
+# Ignore composer.lock if it's not necessary to version lock it
+composer.lock
+
+# Ignore any backup files
+*.bak
+*.swp
+
+# Ignore deployment files
+/deploy/
+
+# Ignore config files for development
+*.config.php
